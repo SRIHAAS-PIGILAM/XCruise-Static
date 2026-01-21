@@ -9,6 +9,6 @@
     "Test Case 8: xCruise Landing Page Tests - Discover Section - should display popular destinations with images": "TEST_STATUS_SUCCESS",
     "Test Case 9: xCruise Landing Page Tests - Discover Section - should have cards with a cursor pointer on hover": "TEST_STATUS_SUCCESS",
     "Test Case 10: xCruise Landing Page Tests - Discover Section - popular pills should have a shadow": "TEST_STATUS_SUCCESS",
-    "Test Case 11: xCruise Landing Page Tests - Contact Us Section - should display the Contact Us section with correct information": "TEST_STATUS_FAILURE",
-    "Test Case 12: xCruise Landing Page Tests - Footer Section - should display the Footer section with all elements correctly": "TEST_STATUS_FAILURE"
+    "Test Case 11: xCruise Landing Page Tests - Contact Us Section - should display the Contact Us section with correct information": "TEST_STATUS_SUCCESS",
+    "Test Case 12: xCruise Landing Page Tests - Footer Section - should display the Footer section with all elements correctly": "TEST_STATUS_SUCCESS"
 }

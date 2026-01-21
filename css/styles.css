@@ -387,34 +387,177 @@ main {
 
 /* CONTACT US SECTION*/
 
-#contact h3{         /* space between bar and text */
+#contact {         /* space between bar and text */
   text-align: center;
   margin-top: 50px;
   margin-bottom: 1px;
 }
 
-#Horizontal_bar{
-  padding-left: 12px;          /* space between bar and text */
-  border-bottom: 4px solid #ff7500;   /* color & thickness of the bar */
-  width: 100px;
-  margin: 2px auto 10px auto;
+#contact h3 {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding-bottom: 6px;
+  border-bottom: 4px solid #ff7500;  /* orange underline */
 }
 
 .contact_info{
   display: flex;
-  justify-content:space-around;
-  align-items: center;
-  gap: 10px;
-  border: 2px solid black;
-  margin: 0px auto;
-  height: 100px;
+  justify-content:center;
+  gap: 24px;
+  margin-top: 16px;
 }
 
 .contact_info div{
-  width: 60%;
-  height:70%;
-  border: 2px solid black;
+  flex: 1;
+  max-width: 700px;
+  border: 1px solid #999;
+  padding: 20px 24px 9px 24px;
   text-align: center;
-  padding: 10px;
   
+}
+
+.contact_info h4 {
+  margin-bottom: 12px;
+  font-size: 18px;
+}
+
+.contact_info p {
+  margin: 4px 0px 0px 2px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .contact_info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_info div {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact_info div {
+    padding: 16px;
+  }
+
+  .contact_info h4 {
+    font-size: 16px;
+  }
+
+  .contact_info p {
+    font-size: 13px;
+  }
+}
+
+
+
+/* FOOTER SECTION*/
+/* ========== FOOTER BASE STYLES (ALL SCREENS) ========== */
+
+footer {
+  background-color: rgb(0, 0, 51);   /* same dark navy as navbar */
+  color: #ffffff;                    /* white text on dark background */
+  margin-top: 40px;                  /* space above footer */
+}
+
+/* Main footer content area: 4 columns on desktop */
+.footer-content {
+  max-width: 1500px;                 /* keep content in a nice width */
+  margin: 0 auto;                    /* center within footer */
+  padding: 32px 50px;                /* top/bottom & side padding */
+  display: flex;                     /* make children behave as columns */
+  justify-content: space-between;    /* spread columns horizontally */
+  gap: 40px;                         /* space between columns */
+}
+
+/* Each column box */
+.footer-col {
+  flex: 1;                           /* all columns share available width */
+  min-width: 160px;                  /* prevent columns from becoming too narrow */
+}
+
+/* Column headings (TOP DESTINATIONS, etc.) */
+.footer-col h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffb300;                    /* warm orange like design */
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Lines inside columns (items/links) */
+.footer-col p {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+/* Social icons row (requirement: only icons inside this div) */
+.social-icons {
+  display: flex;
+  gap: 8px;                          /* spacing between icons */
+  margin-top: 8px;
+}
+
+.social-icons img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Copyright bar (requirement: class name footer_rights & exact text) */
+.footer_rights {
+  text-align: center;
+  font-size: 12px;
+  padding: 10px 0;
+  border-top: 1px solid #001040;     /* subtle separator line */
+}
+
+
+/* ========== FOOTER: TABLETS & BELOW (<= 768px) ========== */
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;          /* stack columns vertically */
+    align-items: center;             /* center columns horizontally */
+    text-align: center;              /* center text inside columns */
+    gap: 24px;                       /* vertical gap between sections */
+    padding: 24px 24px;              /* slightly smaller padding */
+  }
+
+  .footer-col {
+    width: 100%;                     /* each section takes full width */
+    max-width: 400px;                /* but not too wide on large tablets */
+  }
+
+  .social-icons {
+    justify-content: center;         /* center icons under FOLLOW US */
+  }
+}
+
+
+/* ========== FOOTER: SMALL MOBILE (< 480px) ========== */
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 20px 16px;              /* tighter side padding */
+  }
+
+  .footer-col h4 {
+    font-size: 13px;                 /* slightly smaller headings */
+  }
+
+  .footer-col p {
+    font-size: 12px;                 /* slightly smaller body text */
+  }
+
+  .social-icons img {
+    width: 16px;                     /* smaller icons on tiny screens */
+    height: 16px;
+  }
+
+  .footer_rights {
+    font-size: 11px;                 /* compact copyright text */
+  }
 }
