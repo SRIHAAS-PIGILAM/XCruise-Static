@@ -1,54 +1,62 @@
-# XCruise Static- Premium Cruise Vacation Landing Page 🚢
+# XCruise - Premium Cruise Vacation Landing Page 🚢
 
 XCruise is a fully responsive, high-performance static website built from the ground up. It provides a seamless and visually appealing experience for users exploring exotic cruise destinations and vacation packages.
 
-## 🚀 Project Overview
-This project was a "Buildout" challenge where I implemented the entire application from scratch, focusing on semantic structure, modern CSS layouts, and mobile-first responsiveness.
-
 ## 🚀 Live Demo
-[https://x-cruise-static.vercel.app/]
+**[🌐 View Live Project](https://x-cruise-static.vercel.app/)** | **[💻 GitHub Repository](https://github.com/SRIHAAS-PIGILAM/XCruise-Static)**
 
 ---
+
+##  Project Overview
+This project was a "Buildout" challenge where I implemented the entire application from scratch. I focused on semantic structure, modern CSS layouts, and a mobile-first responsive strategy—all without using external UI frameworks like Bootstrap.
 
 ## ✨ Key Features & Implementation
 
 ### 1. Advanced Layouts with CSS Grid & Flexbox
-* Leveraged **CSS Grids** to create a structured, aesthetically consistent arrangement for the 'Discover' section.
-* Utilized **CSS Flexbox** for the navigation bar and footer to ensure perfectly aligned, interactive links and social media icons.
+* **CSS Grids**: Engineered a structured, aesthetically consistent arrangement for the 'Discover' section to handle varying image sizes.
+* **CSS Flexbox**: Optimized the navigation bar and footer for perfect alignment and interactive feedback.
 
 ### 2. Interactive Discovery Section
-* Designed dynamic **Image Pills** and styled cards to showcase popular cruise destinations.
-* Implemented smooth hover states and interactive elements to improve user engagement.
+* **Dynamic Components**: Designed custom **Image Pills** and cards with smooth hover transitions to increase user retention.
 
 ### 3. Mobile-First Responsive Design
-* Used **Media Queries** and flexible units to ensure the Hero section and Contact forms are readable and accessible across all devices.
-* Engineered a responsive navigation system that adapts to mobile screen constraints.
+* **Media Queries**: Implemented a "Mobile-First" strategy to ensure accessibility on devices ranging from small smartphones to large desktops.
+* **Responsive Navigation**: Built a custom navigation system that adapts fluidly to mobile screen constraints.
+
+---
+
+## 📸 Visual Showcase
+
+### 🖥️ Desktop Experience
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/cb084cd5-5696-4cfd-a709-451c6b2ddf2e" width="95%" alt="Desktop View 1" />
+  <img src="https://github.com/user-attachments/assets/facdfdf5-76c8-46e5-9b3e-2fe574fe020a" width="95%" alt="Desktop View 2" />
+  <img src="https://github.com/user-attachments/assets/e7dfa334-c356-4a3e-83b9-becc2b7e4412" width="95%" alt="Desktop View 3" />
+  <img src="https://github.com/user-attachments/assets/8cd0dce8-cb23-4ba6-afd5-da70445c9cc9" width="95%" alt="Desktop View 4" />
+</p>
+
+### 📱 Mobile Responsiveness
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/04f52b43-78b9-4135-9a2a-82caa438bf54" width="24%" alt="Mobile View 1" />
+  <img src="https://github.com/user-attachments/assets/34e9b518-6e97-4eec-a664-81c699a91048" width="24%" alt="Mobile View 2" />
+  <img src="https://github.com/user-attachments/assets/1235fa33-5113-4dfd-b7de-6674ab436826" width="24%" alt="Mobile View 3" />
+  <img src="https://github.com/user-attachments/assets/f1f0b638-1ac1-4e90-ad38-54c69569b970" width="24%" alt="Mobile View 4" />
+</p>
 
 ---
 
 ## 🛠️ Technical Skills Demonstrated
-* **Structural**: HTML5, Semantic HTML.
-* **Styling**: CSS3, CSS Positioning, Media Queries.
-* **Layout Engines**: CSS Flexbox, CSS Grids.
-* **Deployment**: Version control via Git and live hosting via Vercel.
+* **Languages**: HTML5, CSS3.
+* **Layout Techniques**: CSS Flexbox, CSS Grids, CSS Positioning.
+* **Principles**: Responsive Web Design (RWD), Semantic HTML.
+* **Deployment**: Git/GitHub, Vercel.
 
----
-
-## 📸 Core Components
-* **Hero Section**: High-impact background imagery with a clear Call-to-Action (CTA).
-* **Discovery Grid**: Structured layout for exotic destinations.
-* **Comprehensive Footer**: Categorized navigation links and social integration.
-<img width="1906" height="114" alt="image" src="https://github.com/user-attachments/assets/69e2aac8-4ad8-446c-a3f3-364a51ffe220" />
-<img width="1903" height="749" alt="image" src="https://github.com/user-attachments/assets/cb084cd5-5696-4cfd-a709-451c6b2ddf2e" />
-<img width="1903" height="829" alt="image" src="https://github.com/user-attachments/assets/facdfdf5-76c8-46e5-9b3e-2fe574fe020a" />
-<img width="1901" height="804" alt="image" src="https://github.com/user-attachments/assets/e7dfa334-c356-4a3e-83b9-becc2b7e4412" />
-<img width="1903" height="517" alt="image" src="https://github.com/user-attachments/assets/8cd0dce8-cb23-4ba6-afd5-da70445c9cc9" />
 ---
 
 ## 👤 Author
 **SRIHAAS PIGILAM**
-* [GitHub Profile](https://github.com/SRIHAAS-PIGILAM)
 * [LinkedIn](https://www.linkedin.com/in/srihaas-pigilam/)
+* [GitHub Portfolio](https://github.com/SRIHAAS-PIGILAM)
 
 ---
 *Developed as part of the Crio.Do Frontend Buildout Series.*
